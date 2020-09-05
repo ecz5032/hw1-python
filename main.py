@@ -5,21 +5,21 @@ credit1 = input("Enter your course 1 credit: ")
 credit1 = float(credit1)
 
 if gradeOneInput == "A":
-  gradeOne = float(4)
+  gradeOne = 4
 elif gradeOneInput == "A-":
-  gradeOne = float(3.67)
+  gradeOne = 3.67
 elif gradeOneInput == "B+":
-  gradeOne = float(3.33)
+  gradeOne = 3.33
 elif gradeOneInput == "B":
-  gradeOne = float(3)
+  gradeOne = 3
 elif gradeOneInput == "B-":
-  gradeOne = float(2.67)
+  gradeOne = 2.67
 elif gradeOneInput == "C+":
-  gradeOne = float(2.33)
+  gradeOne = 2.33
 elif gradeOneInput == "C":
-  gradeOne = float(2)
+  gradeOne = 2
 elif gradeOneInput == "D":
-  gradeOne = float(1)
+  gradeOne = 1
 else:
   gradeOne = 0
 
@@ -30,23 +30,23 @@ credit2 = input("Enter your course 2 credit: ")
 credit2 = float(credit2)
 
 if gradeTwoInput == "A":
-  gradeTwo = float(4)
+  gradeTwo = 4
 elif gradeTwoInput == "A-":
-  gradeTwo = float(3.67)
+  gradeTwo = 3.67
 elif gradeTwoInput == "B+":
-  gradeTwo = float(3.33)
+  gradeTwo = 3.33
 elif gradeTwoInput == "B":
-  gradeTwo = float(3)
+  gradeTwo = 3
 elif gradeTwoInput == "B-":
-  gradeTwo = float(2.67)
+  gradeTwo = 2.67
 elif gradeTwoInput == "C+":
-  gradeTwo = float(2.33)
+  gradeTwo = 2.33
 elif gradeTwoInput == "C":
-  gradeTwo = float(2)
+  gradeTwo = 2
 elif gradeTwoInput == "D":
-  gradeTwo = float(1)
+  gradeTwo = 1
 else:
-  gradeTwo = float(0)
+  gradeTwo = 0
 
 print("Grade point for course 2 is: " +str(gradeTwo))
 
@@ -55,23 +55,23 @@ credit3 = input("Enter your course 3 credit: ")
 credit3 = float(credit3)
 
 if gradeThreeInput == "A":
-  gradeThree = float(4)
+  gradeThree = 4
 elif gradeThreeInput == "A-":
-  gradeThree = float(3.67)
+  gradeThree = 3.67
 elif gradeThreeInput == "B+":
-  gradeThree = float(3.33)
+  gradeThree = 3.33
 elif gradeThreeInput == "B":
-  gradeThree = float(3)
+  gradeThree = 3
 elif gradeThreeInput == "B-":
-  gradeThree = float(2.67)
+  gradeThree = 2.67
 elif gradeThreeInput == "C+":
-  gradeThree = float(2.33)
+  gradeThree = 2.33
 elif gradeThreeInput == "C":
-  gradeThree = float(2)
+  gradeThree = 2
 elif gradeThreeInput == "D":
-  gradeThree = float(1)
+  gradeThree = 1
 else:
-  gradeThree = float(0)
+  gradeThree = 0
 
 print("Grade point for course 3 is: " +str(gradeThree))
 
